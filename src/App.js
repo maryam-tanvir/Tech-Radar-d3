@@ -1,5 +1,6 @@
 import React from 'react';
-import Radar from "./components/Radar/Radar";
+//import Radar from "./components/Radar/Radar";
+import RadarTimer from './components/Radar/RadarTimer';
 
 function App() {
 
@@ -31,8 +32,11 @@ function App() {
     };
 
     return (
+        // <div className="App">
+        //     <Radar {...setup} />
+        // </div>
         <div className="App">
-            <Radar {...setup} />
+            <RadarTimer {...setup} />
         </div>
     );
 }
