@@ -58,7 +58,7 @@ function RadarTimer(props) {
             // Here you can fetch new data or update existing data
             // For demonstration purposes, let's just refresh the data array
             setData([...data]); // This triggers a re-render
-        }, 2000); // Update every 5 seconds (adjust the interval as needed)
+        }, 2000); // Update every 2 seconds (adjust the interval as needed)
 
         return () => clearInterval(interval); // Cleanup function to clear interval
     }, []); // Empty dependency array ensures the effect runs only once on mount
